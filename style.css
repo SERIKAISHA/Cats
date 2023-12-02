@@ -1,0 +1,74 @@
+header{
+    background-color:rgba(0, 255, 255, 0.813);
+    height: 100%;
+    color:violet;
+    font-size: 50px;
+    background-image: url(https://w.forfun.com/fetch/70/7047b702475924ba8f8044b5b5ca56ba.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+}
+main{
+    background-color: rgb(70, 178, 224);
+    height: 100%;
+    color:rgb(206, 53, 163);
+    font-size:50px;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: url(https://cojo.ru/wp-content/uploads/2022/12/milye-kotiki-28-1.webp);
+background-attachment: fixed;
+background-size: cover;
+}
+footer{
+    background-color:rgb(218, 97, 218);
+    height:100%;
+    color: rgb(4, 195, 199);
+    font-size: 50px;
+    display: flex;
+}
+
+.left{
+    background-color: rgba(233, 150, 122, 0.821);
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 100px;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+.right{
+    background-color: rgba(80, 246, 182, 0.858);
+    height:100%;
+    width: 50%;
+    float: right;
+}
+
+.cont{
+    width:80%;
+    height:100%;
+    display: flex;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.f_right{
+    width: 70%;
+    float: right;
+}
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items:center ;
+}
